@@ -12,10 +12,17 @@ nav {
     float: right;
 }
 
-section {
-    float: left;
-    width: 960px;
+.container {
+    
+    width: auto;
     height: 150px;
+    margin: 10ex;
+}
+
+h1 {
+    block-size: auto;
+    margin: 5px;
+    padding: 20px;
 }
 
 p {
@@ -36,35 +43,8 @@ footer {
 
 
 
-@media only screen and (max-width: 980px) {
-
-body {
-    width: 100%;
-    background-color: wheat;
-
-}
-
-}
-
-@media only screen and (max-width: 768px) {
-
-    body {
-        width: 100%;
-        background-color:red;
-    }
-
-    
-}
 
 
 
 
- @media only screen and (max-width: 640px) {
 
-        body {
-            width: 100%;
-            background-color: orange;
-        
-        }
-        
-}
